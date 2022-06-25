@@ -1,5 +1,9 @@
 body {
-    background-color: orange;
-    background-image: url(/assets/img/Gato_e_Cao.png);
+    background-color: rgb(245, 199, 71);
+    background-image: url(../../assets/img/Gato_e_Cao.png);
     background-size: 10%;
+}
+
+.navbar {
+    background-color: rgb(245, 199, 71) !important;
 }
