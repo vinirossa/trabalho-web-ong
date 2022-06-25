@@ -6,4 +6,5 @@ Lucas Righetto, Felipe Brochini, Henrique Christofoletti e Vinícius Pereira
 
 ## Hospedagem
 
-- Hospedagem escolhida:
+- Domínio: www.instituto-riggato.org.br
+- Hospedagem escolhida: GoDaddy?

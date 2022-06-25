@@ -5,5 +5,34 @@ body {
 }
 
 .navbar {
-    background-color: rgb(245, 199, 71) !important;
+    background-color: rgb(224, 181, 66) !important;
+}
+
+.gradiente {
+    /* fallback for old browsers */
+    background: #f5c747;
+
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(
+        to top,
+        rgba(245, 199, 71, 0.9),
+        rgba(196, 123, 39, 0.9)
+    );
+
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(
+        to top,
+        rgba(245, 199, 71, 0.9),
+        rgba(196, 123, 39, 0.9)
+    );
+}
+
+.row-no-padding,.row-no-padding div,.row-no-padding div button{
+    padding: 0 !important;
+}
+
+.h-divider {
+    width: 100%;
+    height: 20px;
+    background-color: rgb(230, 169, 0) !important;
 }
