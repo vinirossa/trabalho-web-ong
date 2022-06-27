@@ -9,3 +9,11 @@
 .copyright {
     background-color: rgb(229, 152, 52) !important;
 }
+
+#jumbotrons {
+    height: 486.2px !important;
+}
+
+#jumbotrons .jumbotron {
+    height: 486.2px !important;
+}
