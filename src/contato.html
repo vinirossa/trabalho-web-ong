@@ -32,6 +32,7 @@
         crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="css/geral.css" />
+    <link rel="stylesheet" href="css/contato.css" />
 </head>
 <body>
     <!-- Cabeçalho -->
@@ -66,6 +67,92 @@
             </div>
         </nav>
     </header>
+    <!--Corpo-->
+    <p>Entre em Contato conosco!</p>
+
+    <hr>
+    <br>
+    <p class="camposcom">(Campos com * são obrigatorios)</p>
+        <form method="post">
+        <div class="divNome">
+            <label for="nome">Nome Completo*:</label><br>
+            <input type="text" id="nome" name="nome">
+            <p id="nomeinv">É necessario digitar um nome.</p>
+        </div>
+        <br>
+            <label for="tele">Telefone:</label> <br>
+            <input type="tel" name="tele" id="tele"> <br><br><br>
     
+        <div class="divEmail">
+            <label for="email">Email para contato*:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <p id="emailinv">É necessario digitar um Email.</p>
+            
+        </div>
+            <br>
+    
+    
+            <label for="sexo">Sexo:</label><br>
+            <select name="sexo" id="sexo">
+                <option value="masc">Masculino</option>
+                <option value="fem">Feminino</option>
+                <option value="nda">Prefiro não declarar</option>
+            </select> <br><br>
+    
+            <label for="aniversario">Data de Nascimento</label><br>
+            <input type="date" id="aniversario" name="aniversario"><br><br>
+    <br>
+    
+            <label for="endereço">Endereço:</label><br>
+            <input type="text" id="endereço" name="endereço" size="40"><br>
+            <label for="cidade">Cidade:</label><br>
+            <input type="text" id="cidade" name="cidade"><br>
+            <label for="país">País</label><br>
+            <input type="text" id="país" name="país"><br>
+    <br>
+        <label for="mensagem">Deixe uma mensagem!</label><br>
+        <textarea name="mensagem" id="mensagem" cols="50" rows="13"></textarea><br><br>
+        </form>
+    
+        <button style="width: 100px; height: 40px;font-size: 20px; display: block; margin-left: auto; margin-right: auto;" onclick="myFunction()" type="submit">Enviar!</button>
+        <br>
+    
+        <footer id="rodape" class="bg-light text-center text-lg-start">
+            <!-- Copyright -->
+            <div class="copyright text-center p-3">
+                2022 © Instituto Riggato de Assistência a Cães e Gatos
+            </div>
+            <!-- Copyright -->
+          </footer>
+        <footer id="rodape">
+            <div class="container">
+                <p class="text-center mt-3">
+                </p>
+            </div>
+        </footer>
+
+
+        <script>
+            function myFunction(){
+                var NomeCheck = document.getElementById("nome");
+                var EmailCheck = document.getElementById("email");
+            
+        if (NomeCheck.value.length==0 && EmailCheck.value.length==0) {
+            document.getElementById("nome").style.border = "2.5px solid red";
+            document.getElementById("nomeinv").style.visibility = "visible";
+            document.getElementById("email").style.border = "2.5px solid red";
+            document.getElementById("emailinv").style.visibility = "visible";
+         }
+            
+        else if (NomeCheck.value.length==0){
+            document.getElementById("nome").style.border = "2.5px solid red";
+            document.getElementById("nomeinv").style.visibility = "visible";
+        }
+        else if (EmailCheck.value.length==0){
+            document.getElementById("email").style.border = "2.5px solid red";
+            document.getElementById("emailinv").style.visibility = "visible";
+        }
+        }
+        </script>
 </body>
 </html>

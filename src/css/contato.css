@@ -1,0 +1,53 @@
+
+    p{
+        text-align: center;
+        font-size: 50px;
+        font-family:"Bahnschrift SemiBold";
+        color: rgb(0, 119, 255);
+        }
+    form{
+        font-size: 17px;
+        padding-left: 10px;
+    }
+    input{
+        color: #495057;
+        border: 1.4px solid #63b1ff;
+        border-radius: 0.25rem;
+        font-size: 14px;
+    }
+    .fundo{
+        background-color: rgba(128, 128, 128, 0.76);
+    }
+    .fundo a{
+        font-size: 30px;
+        color: aqua;
+        text-decoration: none;
+    }
+    .fundo a:hover{
+        text-decoration: underline;
+    }
+    .camposcom{
+        font-size: 20px;
+        color: red;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .divNome p{
+        margin: 0;
+        font-size: 16px;
+        color: red;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        visibility: hidden;
+    }
+    .divEmail p{
+        margin: 0;
+        font-size: 16px;
+        color: red;
+        text-align: left;
+        font-family: Arial, Helvetica, sans-serif;
+        visibility: hidden;
+    }
+    .copyright {
+        background-color: rgb(229, 152, 52) !important;
+    }
