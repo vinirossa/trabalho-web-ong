@@ -8,7 +8,7 @@ https://github.com/vinirossa/trabalho-web-ong
 
 - Lucas Righetto (202210328)
 - Felipe Brochini (202210217)
-- Henrique Christofoletti (202210275)
+- Henrique Christofoletti (202210271)
 - Vinícius Pereira (202210254)
 
 ## Hospedagem
