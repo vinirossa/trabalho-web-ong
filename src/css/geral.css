@@ -27,7 +27,9 @@ body {
     );
 }
 
-.row-no-padding,.row-no-padding div,.row-no-padding div button{
+.row-no-padding,
+.row-no-padding div,
+.row-no-padding div button {
     padding: 0 !important;
 }
 
