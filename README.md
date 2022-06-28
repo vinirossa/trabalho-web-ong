@@ -6,7 +6,11 @@ https://github.com/vinirossa/trabalho-web-ong
 
 ## Autores
 
-Lucas Righetto, Felipe Brochini, Henrique Christofoletti e Vinícius Pereira
+- Lucas Righetto (202210328)
+- Felipe Brochini (202210217)
+- Henrique Christofoletti (202210275)
+- Vinícius Pereira (202210254)
+
 ## Hospedagem
 
 - Domínio: www.instituto-riggato.org
